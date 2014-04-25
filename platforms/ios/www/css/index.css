@@ -23,6 +23,20 @@ body {
 html {
     height: 100%;
 }
+.swiper-type-icon-star{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 100;
+    width: 15%;
+}
+.swiper-type-icon-heart{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    z-index: 100;
+    width: 15%;
+}
 .swiper-container {
     width: 100%;
     height: 50%;
@@ -42,26 +56,13 @@ html {
 .swiper-container-health .super-health {
      background: #ffffff;
      color: #ca4040;
-}
+ }
 .swiper-container-victory .swiper-slide{
     background: #4390ee;
-}.swiper-container-victory .victory{
+}
+.swiper-container-victory .victory{
     background: #ffffff;
     color: #4390ee;
-}
-.swiper-type-icon-star{
-    position: absolute;
-    left: 10px;
-    top: 20px;
-    z-index: 100;
-    width: 15%;
-}
-.swiper-type-icon-heart{
-    position: absolute;
-    left: 10px;
-    bottom: 5px;
-    z-index: 100;
-    width: 15%;
 }
 .swiper-slide .title {
     font-style: italic;
@@ -90,4 +91,13 @@ html {
 }
 .swiper-active-switch {
     background: #fff;
+}
+.star-victory {
+    color: gold;
+}
+.heart-bonus {
+    color: #ca4040;
+}
+.heart-dead {
+    display:none;
 }

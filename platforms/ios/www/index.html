@@ -137,17 +137,40 @@
         <script src="js/idangerous.swiper-2.1.min.js"></script>
         <script src="js/jquery.fittext.js"></script>
         <script>
-            var victorySwiper = new Swiper('.swiper-container-victory',{
-//                pagination: '.pagination-victory',
-//                paginationClickable: true,
-                loop: true
-            })
+            var victorySwiper = new Swiper('.swiper-container-victory', {
+                loop: true,
+                onSlideChangeStart: function(s) { victorySlideChangeStart(s); }
+            });
 
-            var healthSwiper = new Swiper('.swiper-container-health',{
-//                pagination: '.pagination-health',
-//                paginationClickable: true,
-                loop: true
-            })
+            function victorySlideChangeStart(swiper){
+                if(swiper.activeLoopIndex === 20) {
+                    $('.icon-star').addClass('star-victory');
+                }
+                else {
+                    $('.icon-star').removeClass('star-victory');
+                }
+            }
+
+            var healthSwiper = new Swiper('.swiper-container-health', {
+                loop: true,
+                onSlideChangeStart: function(s){ healthSlideChangeStart(s); }
+            });
+
+            function healthSlideChangeStart(swiper){
+                //we have to account for the skull in the index here
+                if(swiper.activeLoopIndex === 11 || swiper.activeLoopIndex  === 12){
+                    $('.icon-heart').addClass('heart-bonus');
+                    $('.icon-heart').removeClass('heart-dead');
+                }
+                else if(swiper.activeLoopIndex === 10){
+                    $('.icon-heart').addClass('heart-dead');
+                }
+                else {
+                    $('.icon-heart').removeClass('heart-bonus');
+                    $('.icon-heart').removeClass('heart-dead');
+                }
+            }
+
             $('.title').fitText(.25, { minFontSize: '50px', maxFontSize: '275px' });
             $('.swiper-type-icon-star').fitText(.1);
             $('.swiper-type-icon-heart').fitText(.1);
