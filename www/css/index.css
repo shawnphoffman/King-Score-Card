@@ -59,10 +59,11 @@ html {
  }
 .swiper-container-victory .swiper-slide{
     background: #4390ee;
-}.swiper-container-victory .victory{
+}
+.swiper-container-victory .victory{
     background: #ffffff;
     color: #4390ee;
- }
+}
 .swiper-slide .title {
     font-style: italic;
     line-height: 1em;
@@ -90,4 +91,13 @@ html {
 }
 .swiper-active-switch {
     background: #fff;
+}
+.star-victory {
+    color: gold;
+}
+.heart-bonus {
+    color: #ca4040;
+}
+.heart-dead {
+    display:none;
 }
