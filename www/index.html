@@ -137,10 +137,10 @@
         <script>
             var victorySwiper = new Swiper('.swiper-container-victory', {
                 loop: true,
-                onSlideChangeStart: function(s, d) { victorySlideChangeStart(s, d); }
+                onSlideChangeStart: function(s) { victorySlideChangeStart(s); }
             });
 
-            function victorySlideChangeStart(swiper, direction){
+            function victorySlideChangeStart(swiper){
                 if(swiper.activeLoopIndex === 20) {
                     $('.icon-star').addClass('star-victory');
                 }
@@ -151,10 +151,10 @@
 
             var healthSwiper = new Swiper('.swiper-container-health', {
                 loop: true,
-                onSlideChangeStart: function(s, d){ healthSlideChangeStart(s, d); }
+                onSlideChangeStart: function(s){ healthSlideChangeStart(s); }
             });
 
-            function healthSlideChangeStart(swiper, direction){
+            function healthSlideChangeStart(swiper){
                 //we have to account for the skull in the index here
                 if(swiper.activeLoopIndex === 11 || swiper.activeLoopIndex  === 12){
                     $('.icon-heart').addClass('heart-bonus');
