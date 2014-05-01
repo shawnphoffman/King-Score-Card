@@ -40,10 +40,12 @@ html {
 }
 .swiper-container {
     width: 100%;
-    height: 33.4%;
+    height: 33.5%;
     color: #fff;
     text-align: center;
-    text-shadow: black 10px 10px 20px;
+}
+.swiper-container:last-of-type{
+    height:34%;
 }
 .swiper-wrapper{
     display: table;
@@ -53,7 +55,7 @@ html {
     vertical-align: middle;
 }
 /*health css*/
-.swiper-container-health .swiper-slide {
+.swiper-container-health /*.swiper-slide*/ {
     background: #ca4040;
 }
 .swiper-container-health .super-health {
@@ -120,4 +122,35 @@ html {
 }
 .heart-dead {
     display:none;
+}
+
+.symbols{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    font-size: 5em;
+    height: 2em;
+    display: none;
+}
+.swiper-container-victory .symbols {
+    color: #2A77D5;
+}
+.swiper-container-health .symbols {
+    color: #B12727;
+}
+.swiper-container-energy .symbols {
+    color: #239A58;
+}
+.sym-left {
+    position: relative;
+    left: 10px;
+    top: 50%;
+    float: left;
+}
+
+.sym-right{
+    position: relative;
+    top: 50%;
+    right: 10px;
+    float: right;
 }
