@@ -1,13 +1,20 @@
-King-Score-Pad
-==============
+King Score Card
+===============
 
-Simple score tracker for King of Tokyo-style games.
+### A simple stats tracker for the boardgame, King of Tokyo
 
-Large swipeable areas to help keep track of in-game health and victory points.
+King Score Card is a simple health, victory point, and energy cube tracking application for "King of Tokyo"-style games. This app is the perfect companion for game night with friends. No more dealing with loose dials on the placards or those pesky energy cubes. Simply swipe the appropriate dial and easily keep your stats at your fingertips. 
 
-Future Features
----------------
+### Features: 
+- Large swipeable stat areas to easy track monster status 
+- Victory point tracking (0-20) 
+- Health tracking (Standard 10-0 and Upgraded 12-11) 
+- Energy cube tracking (0-15)
+
+Available on the <a href="https://itunes.apple.com/us/app/king-score-card/id869698212?ls=1&mt=8" target="_blank">iOS App Store</a>.
+
+
+## Future Features
 - Customizable health and VP ranges.
 - Sound effects?
 - Preferences
-- Ads?
