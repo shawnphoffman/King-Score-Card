@@ -8,7 +8,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color: mediumseagreen;
+    background-color:#E4E4E4;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -40,13 +40,13 @@ html {
 }
 .swiper-container {
     width: 100%;
-    height: 33.4%;
+    height: 33.5%;
     color: #fff;
     text-align: center;
 }
-/*.swiper-container:last-of-type{*/
-    /*height:34%;*/
-/*}*/
+.swiper-container:last-of-type{
+    height:34%;
+}
 .swiper-wrapper{
     display: table;
 }
