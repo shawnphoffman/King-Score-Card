@@ -35,3 +35,6 @@
 .icon-heart:before {
 	content: "\e602";
 }
+.icon-heart, .icon-star {
+	margin-left: 5px;
+}
