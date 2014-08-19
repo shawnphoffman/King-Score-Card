@@ -1,249 +1,290 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
-        <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="css/idangerous.swiper.css">
-        <link rel="stylesheet" href="fonts/style.css">
-        <title>Score Card</title>
-    </head>
-    <body>
-        <div class="swiper-container swiper-container-victory">
-            <div class="symbols">
-                <div class="sym-left">-</div>
-                <div class="sym-right">+</div>
-            </div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="title">0<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">1<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">2<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">3<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">4<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">5<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">6<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">7<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">8<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">9<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">10<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">11<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">12<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">13<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">14<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">15<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">16<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">17<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">18<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">19<span class="icon-star icon"></span></div>
-                </div>
-                <div class="swiper-slide victory">
-                    <div class="title">20<span class="icon-star icon"></span></div>
-                </div>
-            </div>
-            <div class="pagination pagination-victory"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+  <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <link rel="stylesheet" href="fonts/style.css">
+  <title>Score Card</title>
+</head>
+<body>
+  <div id="toolbar">
+    King Score Card
+    <div class="clr"><span class="icon-reset icon"></span></div>
+  </div>
+  <div class="swiper-container swiper-container-victory">
+    <div class="symbols">
+      <div class="sym-left">-</div>
+      <div class="sym-right">+</div>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title">0<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">1<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">2<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">3<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">4<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">5<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">6<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">7<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">8<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">9<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">10<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">11<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">12<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">13<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">14<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">15<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">16<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">17<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">18<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">19<span class="icon-star icon"></span></div>
+      </div>
+      <div class="swiper-slide victory">
+        <div class="title">20<span class="icon-star icon"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-container swiper-container-health">
+    <div class="symbols">
+      <div class="sym-left">+</div>
+      <div class="sym-right">-</div>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title">10<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">9<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">8<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">7<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">6<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">5<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">4<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">3<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">2<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">1<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">
+          <span class="icon-skull"></span>
         </div>
-        <div class="swiper-container swiper-container-health">
-            <div class="symbols">
-                <div class="sym-left">+</div>
-                <div class="sym-right">-</div>
-            </div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="title">10<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">9<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">8<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">7<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">6<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">5<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">4<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">3<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">2<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">1<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">
-                        <span class="icon-skull"></span>
-                    </div>
-                </div>
-                <div class="swiper-slide super-health">
-                    <div class="title">12<span class="icon-heart icon"></span></div>
-                </div>
-                <div class="swiper-slide super-health">
-                    <div class="title">11<span class="icon-heart icon"></span></div>
-                </div>
-            </div>
-            <div class="pagination pagination-health"></div>
-        </div>
-        <div class="swiper-container swiper-container-energy">
-            <div class="symbols">
-                <div class="sym-left">-</div>
-                <div class="sym-right">+</div>
-            </div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="title">0<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">1<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">2<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">3<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">4<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">5<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">6<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">7<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">8<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">9<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">10<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">11<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">12<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">13<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">14<span class="icon-bolt"></span></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="title">15<span class="icon-bolt"></span></div>
-                </div>
-            </div>
-            <div class="pagination pagination-energy"></div>
-        </div>
-        <script src="js/jquery-1.10.1.min.js"></script>
-        <script src="js/idangerous.swiper-2.1.min.js"></script>
-        <script src="js/jquery.fittext.js"></script>
-        <script>
-            // Victory Point Swiper
-            var victorySwiper = new Swiper('.swiper-container-victory', {
-                loop: true,
-                onSlideChangeStart: function(s) { victorySlideChangeStart(s); }
-            });
+      </div>
+      <div class="swiper-slide super-health">
+        <div class="title">12<span class="icon-heart icon"></span></div>
+      </div>
+      <div class="swiper-slide super-health">
+        <div class="title">11<span class="icon-heart icon"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-container swiper-container-energy">
+    <div class="symbols">
+      <div class="sym-left">-</div>
+      <div class="sym-right">+</div>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title">0<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">1<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">2<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">3<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">4<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">5<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">6<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">7<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">8<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">9<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">10<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">11<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">12<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">13<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">14<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">15<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">16<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">17<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">18<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">19<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">20<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">21<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">22<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">23<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">24<span class="icon-bolt"></span></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title">25<span class="icon-bolt"></span></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/idangerous.swiper-2.1.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script>
+  // Victory Point Swiper
+  var victorySwiper = new Swiper('.swiper-container-victory', {
+    loop: true,
+    onSlideChangeStart: function(s) { victorySlideChangeStart(s); }
+  });
 
-            function victorySlideChangeStart(swiper){
-                if(swiper.activeLoopIndex === 20) {
-                    $('.icon-star').addClass('star-victory');
-                }
-                else {
-                    $('.icon-star').removeClass('star-victory');
-                }
-            }
+  function victorySlideChangeStart(swiper){
+    if(swiper.activeLoopIndex === 20) {
+      $('.icon-star').addClass('star-victory');
+    }
+    else {
+      $('.icon-star').removeClass('star-victory');
+    }
+  }
 
-            // Health Swiper
-            var healthSwiper = new Swiper('.swiper-container-health', {
-                loop: true,
-                onSlideChangeStart: function(s){ healthSlideChangeStart(s); }
-            });
+  // Health Swiper
+  var healthSwiper = new Swiper('.swiper-container-health', {
+    loop: true,
+    onSlideChangeStart: function(s){ healthSlideChangeStart(s); }
+  });
 
-            function healthSlideChangeStart(swiper){
-                //we have to account for the skull in the index here
-                if(swiper.activeLoopIndex === 11 || swiper.activeLoopIndex  === 12){
-                    $('.icon-heart').addClass('heart-bonus');
-                    $('.icon-heart').removeClass('heart-dead');
-                }
-                else if(swiper.activeLoopIndex === 10){
-                    $('.icon-heart').addClass('heart-dead');
-                }
-                else {
-                    $('.icon-heart').removeClass('heart-bonus');
-                    $('.icon-heart').removeClass('heart-dead');
-                }
-            }
+  function healthSlideChangeStart(swiper){
+    //we have to account for the skull in the index here
+    if(swiper.activeLoopIndex === 11 || swiper.activeLoopIndex  === 12){
+      $('.icon-heart').addClass('heart-bonus');
+      $('.icon-heart').removeClass('heart-dead');
+    }
+    else if(swiper.activeLoopIndex === 10){
+      $('.icon-heart').addClass('heart-dead');
+    }
+    else {
+      $('.icon-heart').removeClass('heart-bonus');
+      $('.icon-heart').removeClass('heart-dead');
+    }
+  }
 
-            // Energy Swiper
-            var energySwiper = new Swiper('.swiper-container-energy', {
-                loop: true
-            });
+  // Energy Swiper
+  var energySwiper = new Swiper('.swiper-container-energy', {
+    loop: true
+  });
 
-            $('.title').fitText(.25, { minFontSize: '50px', maxFontSize: '250px' });
-            $('.swiper-type-icon-star').fitText(.1);
-            $('.swiper-type-icon-heart').fitText(.1);
-        </script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+  $('.clr').on('click', function(){
+    victorySwiper.swipeTo(0, 300, false);
+    healthSwiper.swipeTo(0, 300, false);
+    energySwiper.swipeTo(0, 300, false);
+
+    $('.icon-heart').removeClass('heart-bonus');
+    $('.icon-heart').removeClass('heart-dead');
+    $('.icon-star').removeClass('star-victory');
+  });
+
+  $('.title').fitText(.28, { minFontSize: '50px', maxFontSize: '250px' });
+  $('.swiper-type-icon-star').fitText(.1);
+  $('.swiper-type-icon-heart').fitText(.1);
+  </script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+    app.initialize();
+  </script>
+</body>
 </html>
