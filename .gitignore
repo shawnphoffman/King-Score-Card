@@ -3,8 +3,9 @@ hooks
 merges
 platforms
 plugins
-www/bower_components
-www/node_modules
+.metadata
+.cordova
+node_modules
 .DS_Store
 fonts.min.css
 idangerous.min.css
