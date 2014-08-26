@@ -1,4 +1,11 @@
-platforms
 .idea
+hooks
+merges
+platforms
 plugins
-.metadata
+www/bower_components
+www/node_modules
+.DS_Store
+fonts.min.css
+idangerous.min.css
+index.min.css
