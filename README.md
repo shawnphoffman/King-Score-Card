@@ -1,4 +1,4 @@
-King Score Card
+King Score Card [![Build Status](https://travis-ci.org/shawnphoffman/King-Score-Card.png)](https://travis-ci.org/shawnphoffman/King-Score-Card)
 ===============
 
 ### A simple stats tracker for the boardgames, King of Tokyo and King of New York
