@@ -1,0 +1,19 @@
+{
+  "name": "King Score Card",
+  "version": "1.4",
+  "homepage": "https://github.com/shawnphoffman/King-Score-Card",
+  "authors": [
+    "Shawn Hoffman"
+  ],
+  "description": "A simple stats tracker for the boardgame, King of Tokyo",
+  "main": "www/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
