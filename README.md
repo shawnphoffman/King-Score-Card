@@ -11,4 +11,6 @@ King Score Card is a simple health, victory point, and energy cube tracking appl
 - Health tracking (Standard 10-0 and Upgraded 12-11)
 - Energy cube tracking (0-25)
 
+#### Preview on <a href="https://www.youtube.com/watch?v=Uc_Rq91loZI">YouTube</a>
+
 Available on the <a href="https://itunes.apple.com/us/app/king-score-card/id869698212?ls=1&mt=8" target="_blank">iOS App Store</a>.
