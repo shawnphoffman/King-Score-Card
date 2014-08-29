@@ -10,6 +10,7 @@ King Score Card is a simple health, victory point, and energy cube tracking appl
 - Victory point tracking (0-20)
 - Health tracking (Standard 10-0 and Upgraded 12-11)
 - Energy cube tracking (0-25)
+- Reset button for quickly starting over
 
 #### Preview on <a href="https://www.youtube.com/watch?v=Uc_Rq91loZI">YouTube</a>
 
