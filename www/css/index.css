@@ -47,10 +47,10 @@ html {
 }
 .swiper-slide .title {
   line-height: .75em;
-  font-size: 130px;
+  font-size: 120px;
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.75);
 }
-.swiper-slide .icon {
+.swiper-slide .title .icon {
   font-size: .6em;
   bottom: .1em;
   position: relative;
@@ -110,6 +110,12 @@ html {
   left: 15px;
   font-size: .75em;
 }
+#toolbar .clr:after {
+  content:'';
+  position:absolute;
+  top:-10px; bottom:-10px;
+  left:-10px; right:-10px;
+}
 #toolbar .clr:active {
   top: 3px;
   color: red;
@@ -138,44 +144,31 @@ html {
   #toolbar {
     font-size: 1.2em;
   }
+  .swiper-slide .title {
+    font-size: 110px;
+  }
 }
 
-
-/*.swiper-visible-switch {
-  background: #aaa;
-}
-.swiper-active-switch {
-  background: #fff;
-}*/
-
-/*.symbols{
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  font-size: 5em;
-  height: 2em;
-  display: none;
-}
-.swiper-container-victory .symbols {
-  color: #2A77D5;
-}
-.swiper-container-health .symbols {
-  color: #B12727;
-}
-.swiper-container-energy .symbols {
-  color: #239A58;
-}*/
-
-/*.sym-left {
-  position: relative;
-  left: 10px;
-  top: 50%;
-  float: left;
+.right, .left {
+  line-height: 1em;
+  margin-top: 2em;
+  color: rgba(0,0,0,.15);
 }
 
-.sym-right{
-  position: relative;
-  top: 50%;
-  right: 10px;
+.right .icon, .left .icon {
+  font-size: 35px;
+}
+
+.right {
   float: right;
-}*/
+  margin-right: 8px;
+}
+
+.left {
+  float: left;
+  margin-left: 8px;
+}
+
+span.hidden {
+  visibility: hidden;
+}

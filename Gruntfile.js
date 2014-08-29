@@ -6,12 +6,12 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'www/css/',
         src: ['*.css', '!*.min.css'],
-        dest: 'www/css/',
+        dest: 'www/css/min/',
         ext: '.min.css'
       },
       combine: {
         files: {
-          'www/css/dist/king-final.min.css': ['www/css/*.min.css']
+          'www/css/dist/king-final.min.css': ['www/css/min/*.min.css']
         }
       }
     },
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       },
       default: {
         files: {
-          'www/js/dist/king.min.js': ['www/js/*.js']
+          'www/js/dist/king.min.js': ['www/js/idangerous.swiper-2.1.min.js', 'www/js/king.js']
         }
       }
     }
