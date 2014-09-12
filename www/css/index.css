@@ -126,17 +126,24 @@ html {
   #toolbar {
     font-size: 2.1em;
   }
+
 }
 @media (min-width: 760px) and (orientation: portrait) {
   .swiper-slide .title {
     font-size: 15em;
     text-shadow: 10px 10px 6px rgba(0,0,0,.75);
   }
+  .left, .right {
+    margin-top: 5em !important;
+  }
 }
 @media (min-width: 760px) and (orientation: landscape) {
   .swiper-slide .title {
     font-size: 12em;
     text-shadow: 10px 10px 6px rgba(0,0,0,.75);
+  }
+  .left, .right {
+    margin-top: 4em !important;
   }
 }
 /* < iPhone 4 Modifications*/
